@@ -1,5 +1,5 @@
 .Description {
-    color: #da4545;
+    color: #000000;
 }
 
 span {
@@ -16,14 +16,21 @@ span {
 
 .card {
     background-color: coral;
+    width: 743px;
+    height: 400px;
     
 }
 
 .image_box {
-    width: 100px;
-    height: 100px;
-    margin: 0px 0px 50px 316px;
-    display: ;
+    width: 236px;
+    height: 236px;
+}
+
+.card > .image_box {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    left: 68.3%;
 }
 
 .img_profile {
@@ -36,9 +43,16 @@ h1 {
     font-size: 50px;
     font-family: Roboto;
     font-style: italic;
-
+    text-align: center;
 }
 
 .quien_soy {
     margin-bottom: 100px;
+}
+
+.Info_card {
+    width: 500px;
+    margin-top: 3%;
+    position: absolute;
+    top: 100px;
 }
