@@ -18,8 +18,10 @@ span {
     background-color: coral;
     width: 743px;
     height: 400px;
-    
+    display: flex;
+    margin: auto;
 }
+
 
 .image_box {
     width: 236px;
@@ -44,6 +46,10 @@ h1 {
     font-family: Roboto;
     font-style: italic;
     text-align: center;
+}
+
+body {
+    background-image: "..\images\nether_portal-bg.gif";
 }
 
 .quien_soy {
