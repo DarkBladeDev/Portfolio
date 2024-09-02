@@ -8,6 +8,12 @@ span {
 
 .Subtitle {
     color: #7cbb3c;
+    
+}
+
+.Contact {
+    display: grid;
+    place-content: center;
 }
 
 #email {
@@ -18,8 +24,10 @@ span {
     background-color: coral;
     width: 743px;
     height: 400px;
-    
+    display: flex;
+    margin: auto;
 }
+
 
 .image_box {
     width: 236px;
@@ -41,9 +49,13 @@ span {
 
 h1 {
     font-size: 50px;
-    font-family: Roboto;
-    font-style: italic;
+    font-family: Pixer;
     text-align: center;
+}
+
+body {
+    background-image: url('../images/nether_portal-bg.gif');
+    background-size: cover;
 }
 
 .quien_soy {
