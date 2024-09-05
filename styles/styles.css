@@ -8,10 +8,9 @@ span {
 
 .Subtitle {
     color: #489fb9;
-    
 }
 
-.Contact {
+.ContactH2 {
     display: grid;
     place-content: center;
 }
@@ -51,6 +50,7 @@ h1 {
     font-size: 50px;
     font-family: "Pixelify Sans";
     text-align: center;
+    color: #c73737;
 }
 
 body {
@@ -81,4 +81,34 @@ a {
 .github_logo {
     width: 50px;
     height: 50px;
+}
+
+footer {
+    position: relative;
+}
+
+.Contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 50px;
+}
+
+.ContactH2 {
+    margin-bottom: 50px;
+    color: #489fb9;
+}
+
+.LI {
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    top: 50px;
+    padding-right: 20px;
+}
+
+.Info_desc {
+    color: #cae57c;
 }
