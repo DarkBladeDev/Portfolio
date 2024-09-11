@@ -1,0 +1,58 @@
+body {
+    background-image: url('../images/background_gofiles.png');
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Pixelify Sans";
+    text-align: center;
+    color: #37bbc7;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #5a39a7;
+}
+
+h3 {
+    color: #5a39a7;
+    font-family: sans-serif;
+    
+}
+
+.card_1 {
+    width: 40%;
+    height: 80%;
+}
+
+
+.card_2 {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    bottom: 0%;
+    top: 30%;
+    left: 55%;
+}
+
+.img-cap {
+    width: 300px;
+    height: 180px;
+    border: #0000;
+}
+
+.Subtitle {
+    text-align: center;
+    width: 300px;
+}
+
+.Info {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(139, 188, 231);
+    width: 325px;
+}
+
