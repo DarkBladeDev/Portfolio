@@ -28,6 +28,10 @@ h3 {
   height: 50%;
 }
 
+.card_1 > * {
+  width: 100%;
+}
+
 .card_2 {
   width: 50%;
   height: 80%;
