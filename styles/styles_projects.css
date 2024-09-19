@@ -60,7 +60,7 @@ h3 {
 
 .Subtitle {
   text-align: center;
-  width: 300px;
+  width: 100%;
 }
 
 .Info {
@@ -68,7 +68,7 @@ h3 {
   font-family: sans-serif;
   font-size: medium;
   color: rgb(139, 188, 231);
-  width: 325px;
+  width: 90%;
 }
 
 a {
