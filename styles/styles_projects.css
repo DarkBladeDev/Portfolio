@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/background_gofiles.png");
+  background-image: url("../images/minecraft-nether-bg.jpg");
   background-size: cover;
 }
 
@@ -25,19 +25,17 @@ h3 {
 
 .card_1 {
   width: 70%;
-  height: 50%;
+  height: 40%;
+  padding-top: 5%;
 }
 
-.card_1 > * {
-  width: 100%;
-}
 
 .card_2 {
   width: 50%;
   height: 80%;
   position: absolute;
   bottom: 0%;
-  top: 30%;
+  top: 25%;
   left: 55%;
 }
 
@@ -77,4 +75,19 @@ h3 {
 
 a {
     color: aqua;
+}
+
+footer {
+  display: inline-block;
+  list-style-type: none;
+  position: relative;
+  top: 100px;
+  padding-left: 5%;
+}
+
+footer > a {
+  font-family: "Pixelify Sans";
+  font: bold;
+  font-size: 40px;
+  text-decoration: none;
 }
