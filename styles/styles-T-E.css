@@ -16,3 +16,28 @@ h2 {
     color: #5a39a7;
   }
 
+.Img_login {
+    width: 50vw;
+    height: 400px;
+}
+
+.Img_login-box {
+  position: relative;
+  left: 50%;
+}
+
+p {
+  font-size: 18px;
+}
+
+.Subtitle_card {
+  font-size: 20px;
+  width: 48vw;
+  position: relative;
+  top: 45vh;
+}
+
+.Subtitle_img {
+  font-size: 25px;
+  color: #510303;
+}
