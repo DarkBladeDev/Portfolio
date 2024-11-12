@@ -21,6 +21,16 @@ h2 {
     height: 400px;
 }
 
+.Img_lang_selector {
+  width: 50vw;
+  height: 400px;
+}
+
+.Img_main_app {
+  width: 50vw;
+  height: 400px;
+}
+
 .Img_login-box {
   position: relative;
   left: 50%;
@@ -40,4 +50,12 @@ p {
 .Subtitle_img {
   font-size: 25px;
   color: #510303;
+}
+
+footer > a {
+  font-family: "Pixelify Sans";
+  font: bold;
+  font-size: 40px;
+  text-decoration: none;
+  color: chartreuse;
 }
