@@ -15,6 +15,12 @@ span {
     place-content: center;
 }
 
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #email {
     height: 100%;
 }
